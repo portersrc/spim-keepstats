@@ -8,7 +8,7 @@
 #include <string.h>
 
 typedef struct statistics_s {
-  int instruction_count; //Should equal the sum of the counts below
+  int instruction_count;
   int num_reads;
   int num_writes;
   int num_branches;
