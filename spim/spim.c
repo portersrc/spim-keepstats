@@ -79,6 +79,7 @@
 #include "scanner.h"
 #include "parser_yacc.h"
 #include "data.h"
+#include "statistics.h"                    /* Added for keepstats */
 
 
 /* Internal functions: */
@@ -256,6 +257,8 @@ main (int argc, char **argv)
       else if (streq (argv [i], "-lkdata")
 	       || streq (argv [i], "-lkd"))
 	{ initial_k_data_limit = atoi (argv[++i]); }
+      else if (streq (argv [i], "-keepstats"))  // Added for keepstats
+	{ keep_stats = 1; }                     // Added for keepstats
       else if (((streq (argv [i], "-file")
                  || streq (argv [i], "-f"))
                 && (i + 1 < argc))
