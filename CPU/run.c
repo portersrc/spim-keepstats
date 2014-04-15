@@ -61,6 +61,7 @@
 #include "parser_yacc.h"
 #include "syscall.h"
 #include "run.h"
+#include "statistics.h"                    /* Added for keepstats */
 
 bool force_break = false;	/* For the execution env. to force an execution break */
 
@@ -334,30 +335,35 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_BEQ_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] == R[RT (inst)],
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BEQL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] == R[RT (inst)],
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BGEZ_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BGEZL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BGEZAL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      R[31] = PC + (delayed_branches ? 2 * BYTES_PER_WORD : BYTES_PER_WORD);
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
@@ -365,6 +371,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_BGEZALL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      R[31] = PC + (delayed_branches ? 2 * BYTES_PER_WORD : BYTES_PER_WORD);
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
@@ -372,42 +379,49 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_BGTZ_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] != 0 && SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BGTZL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] != 0 && SIGN_BIT (R[RS (inst)]) == 0,
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BLEZ_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] == 0 || SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BLEZL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] == 0 || SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BLTZ_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BLTZL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BLTZAL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      R[31] = PC + (delayed_branches ? 2 * BYTES_PER_WORD : BYTES_PER_WORD);
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
@@ -415,6 +429,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_BLTZALL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      R[31] = PC + (delayed_branches ? 2 * BYTES_PER_WORD : BYTES_PER_WORD);
 	      BRANCH_INST (SIGN_BIT (R[RS (inst)]) != 0,
 			   PC + IDISP (inst),
@@ -422,18 +437,21 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_BNE_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] != R[RT (inst)],
 			   PC + IDISP (inst),
 			   0);
 	      break;
 
 	    case Y_BNEL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      BRANCH_INST (R[RS (inst)] != R[RT (inst)],
 			   PC + IDISP (inst),
 			   1);
 	      break;
 
 	    case Y_BREAK_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      if (RD (inst) == 1)
 		/* Debugger breakpoint */
 		RAISE_EXCEPTION (ExcCode_Bp, return true)
@@ -517,10 +535,12 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_J_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      JUMP_INST (((PC & 0xf0000000) | TARGET (inst) << 2));
 	      break;
 
 	    case Y_JAL_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      if (delayed_branches)
 		R[31] = PC + 2 * BYTES_PER_WORD;
 	      else
@@ -529,6 +549,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_JALR_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      {
 		mem_addr tmp = R[RS (inst)];
 
@@ -541,6 +562,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_JR_OP:
+              statistics_inc_branches(&global_stats);   /* keepstats */
 	      {
 		mem_addr tmp = R[RS (inst)];
 
@@ -549,30 +571,35 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_LB_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_byte (R[BASE (inst)] + IOFFSET (inst)),
 			 0xffffffff);
 	      break;
 
 	    case Y_LBU_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_byte (R[BASE (inst)] + IOFFSET (inst)),
 			 0xff);
 	      break;
 
 	    case Y_LH_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_half (R[BASE (inst)] + IOFFSET (inst)),
 			 0xffffffff);
 	      break;
 
 	    case Y_LHU_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_half (R[BASE (inst)] + IOFFSET (inst)),
 			 0xffff);
 	      break;
 
 	    case Y_LL_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      /* Uniprocess, so this instruction is just a load */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_word (R[BASE (inst)] + IOFFSET (inst)),
@@ -584,6 +611,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_LW_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      LOAD_INST (&R[RT (inst)],
 			 read_mem_word (R[BASE (inst)] + IOFFSET (inst)),
 			 0xffffffff);
@@ -598,6 +626,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_LWL_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      {
 		mem_addr addr = R[BASE (inst)] + IOFFSET (inst);
 		reg_word word;	/* Can't be register */
@@ -649,6 +678,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      }
 
 	    case Y_LWR_OP:
+              statistics_inc_reads(&global_stats);   /* keepstats */
 	      {
 		mem_addr addr = R[BASE (inst)] + IOFFSET (inst);
 		reg_word word;	/* Can't be register */
@@ -988,14 +1018,17 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      break;
 
 	    case Y_SW_OP:
+              statistics_inc_writes(&global_stats);   /* keepstats */
 	      set_mem_word (R[BASE (inst)] + IOFFSET (inst), R[RT (inst)]);
 	      break;
 
 	    case Y_SWC2_OP:
+              statistics_inc_writes(&global_stats);   /* keepstats */
 	      RAISE_EXCEPTION (ExcCode_CpU, {}); /* No Coprocessor 2 */
 	      break;
 
 	    case Y_SWL_OP:
+              statistics_inc_writes(&global_stats);   /* keepstats */
 	      {
 		mem_addr addr = R[BASE (inst)] + IOFFSET (inst);
 		mem_word data;
@@ -1047,6 +1080,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 	      }
 
 	    case Y_SWR_OP:
+              statistics_inc_writes(&global_stats);   /* keepstats */
 	      {
 		mem_addr addr = R[BASE (inst)] + IOFFSET (inst);
 		mem_word data;
@@ -1635,6 +1669,7 @@ run_spim (mem_addr initial_PC, int steps_to_run, bool display)
 
 	  /* After instruction executes: */
 	  PC += BYTES_PER_WORD;
+          statistics_inc_instruction_count(&global_stats);   /* keepstats */
 
 	  if (exception_occurred)
 	    {
