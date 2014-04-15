@@ -123,7 +123,7 @@ LEXCFLAGS += -O $(CFLAGS)
 
 
 
-OBJS = spim.o spim-utils.o run.o mem.o inst.o data.o sym-tbl.o parser_yacc.o lex.yy.o \
+OBJS = spim.o statistics.o spim-utils.o run.o mem.o inst.o data.o sym-tbl.o parser_yacc.o lex.yy.o \
        syscall.o display-utils.o string-stream.o
 
 
@@ -192,7 +192,7 @@ install-man:
 	install -m 0444 $(DOC_DIR)/spim.man $(MAN_DIR)
 
 splint: spim
-	splint -weak -preproc -warnposix +matchanyintegral spim.c parser_yacc.c lex.yy.c
+	splint -weak -preproc -warnposix +matchanyintegral spim.c statistics.c parser_yacc.c lex.yy.c
 
 
 
@@ -319,6 +319,7 @@ spim.o: $(CPU_DIR)/parser.h
 spim.o: $(CPU_DIR)/sym-tbl.h
 spim.o: $(CPU_DIR)/scanner.h
 spim.o: parser_yacc.h
+statistics.o: statistics.h
 parser_yacc.o: $(CPU_DIR)/spim.h
 parser_yacc.o: $(CPU_DIR)/string-stream.h
 parser_yacc.o: $(CPU_DIR)/spim-utils.h
