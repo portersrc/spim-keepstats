@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/p/spimsimulator/code/!svn/ver/640/QtSpim
+END
+console.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/604/QtSpim/console.cpp
+END
+spimview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/604/QtSpim/spimview.cpp
+END
+texttextedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/571/QtSpim/texttextedit.h
+END
+spim_support.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/615/QtSpim/spim_support.c
+END
+menu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/631/QtSpim/menu.cpp
+END
+windows_images.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/spimsimulator/code/!svn/ver/569/QtSpim/windows_images.qrc
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/615/QtSpim/main.cpp
+END
+datawin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/619/QtSpim/datawin.cpp
+END
+datatextedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/571/QtSpim/datatextedit.h
+END
+parser_yacc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/460/QtSpim/parser_yacc.cpp
+END
+spimview.ui
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/573/QtSpim/spimview.ui
+END
+qtspim.rc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/448/QtSpim/qtspim.rc
+END
+scanner_lex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/461/QtSpim/scanner_lex.cpp
+END
+exception.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/449/QtSpim/exception.qrc
+END
+printwindows.ui
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/445/QtSpim/printwindows.ui
+END
+textwin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/587/QtSpim/textwin.cpp
+END
+runparams.ui
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/445/QtSpim/runparams.ui
+END
+console.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/590/QtSpim/console.h
+END
+spimview.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/617/QtSpim/spimview.h
+END
+NewIcon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/640/QtSpim/NewIcon.icns
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/spimsimulator/code/!svn/ver/527/QtSpim/README
+END
+changevalue.ui
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/529/QtSpim/changevalue.ui
+END
+settablecheckbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/spimsimulator/code/!svn/ver/445/QtSpim/settablecheckbox.h
+END
+state.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/563/QtSpim/state.cpp
+END
+macinfo.plist
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/637/QtSpim/macinfo.plist
+END
+breakpoint.ui
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/559/QtSpim/breakpoint.ui
+END
+QtSpim.pro
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/637/QtSpim/QtSpim.pro
+END
+regwin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/622/QtSpim/regwin.cpp
+END
+savelogfile.ui
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/538/QtSpim/savelogfile.ui
+END
+settings.ui
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/527/QtSpim/settings.ui
+END
+spim_settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/445/QtSpim/spim_settings.h
+END
+regtextedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/571/QtSpim/regtextedit.h
+END
+parser_yacc.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/429/QtSpim/parser_yacc.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/spimsimulator/code/!svn/ver/628/BoneYard/spiminst/dos/build/Tests
+END
+io.s
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/io.s
+END
+allinsts.s
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/allinsts.s
+END
+bare.s
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/bare.s
+END
+alubare.s
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/alubare.s
+END
+fpubare.ok
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/fpubare.ok
+END
+allinsts.in
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/allinsts.in
+END
+vssver.scc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/vssver.scc
+END
+Tests.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/Tests.txt
+END
+allinsts.ok
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/allinsts.ok
+END
+bare.ok
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/bare.ok
+END
+alubare.ok
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/alubare.ok
+END
+fpubare.s
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/dos/build/Tests/fpubare.s
+END

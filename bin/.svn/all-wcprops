@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/p/spimsimulator/code/!svn/ver/639/bin
+END
+release-debian
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/632/bin/release-debian
+END
+release-spim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/450/bin/release-spim
+END
+release-osx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/639/bin/release-osx
+END
+release-qtspim
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/450/bin/release-qtspim
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/spimsimulator/code/!svn/ver/632/Setup/qtspim_debian_deployment
+END
+control.prototype
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/spimsimulator/code/!svn/ver/632/Setup/qtspim_debian_deployment/control.prototype
+END
+qtspim.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/632/Setup/qtspim_debian_deployment/qtspim.desktop
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/spimsimulator/code/!svn/ver/513/Setup/qtspim_debian_deployment/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/spimsimulator/code/!svn/ver/632/Setup/qtspim_debian_deployment/copyright
+END
+postinst
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/spimsimulator/code/!svn/ver/556/Setup/qtspim_debian_deployment/postinst
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/spimsimulator/code/!svn/ver/628/BoneYard/spiminst/windows/setup32
+END
+mssccprj.scc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/mssccprj.scc
+END
+SpimReg.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/SpimReg.h
+END
+ChooseDirDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/ChooseDirDlg.h
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/util.cpp
+END
+Regman.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/Regman.h
+END
+vssver.scc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/vssver.scc
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/util.h
+END
+globals.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/globals.cpp
+END
+BusyCursor.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/BusyCursor.h
+END
+setup32.rc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/setup32.rc
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/globals.h
+END
+remove32.ico
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/remove32.ico
+END
+ProgressDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/ProgressDlg.cpp
+END
+DirectoryDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/DirectoryDlg.cpp
+END
+setup32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/setup32.mak
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/resource.h
+END
+setup32.ico
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/setup32.ico
+END
+Dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/Dialog.cpp
+END
+ProgressDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/ProgressDlg.h
+END
+DirectoryDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/DirectoryDlg.h
+END
+setup32.mdp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/setup32.mdp
+END
+Dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/Dialog.h
+END
+setup32.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/setup32.cpp
+END
+ChooseDirDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/ChooseDirDlg.cpp
+END
+Regman.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/spimsimulator/code/!svn/ver/263/BoneYard/spiminst/windows/setup32/Regman.cpp
+END

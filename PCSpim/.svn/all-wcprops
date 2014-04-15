@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/p/spimsimulator/code/!svn/ver/628/PCSpim
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/563/PCSpim/StdAfx.h
+END
+PCSpim.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/385/PCSpim/PCSpim.h
+END
+pcspim.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/608/PCSpim/pcspim.vcxproj
+END
+pcspim.vs08.sln
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/503/PCSpim/pcspim.vs08.sln
+END
+SpimSupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/563/PCSpim/SpimSupport.cpp
+END
+pcspim.sln
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/500/PCSpim/pcspim.sln
+END
+Regman.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/430/PCSpim/Regman.cpp
+END
+resource.hm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/260/PCSpim/resource.hm
+END
+MakeHelp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/385/PCSpim/MakeHelp.bat
+END
+SpimReg.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/385/PCSpim/SpimReg.h
+END
+ConsoleWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/550/PCSpim/ConsoleWnd.cpp
+END
+pcspim.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/spimsimulator/code/!svn/ver/430/PCSpim/pcspim.vcxproj.filters
+END
+pcspim.vs08.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/spimsimulator/code/!svn/ver/565/PCSpim/pcspim.vs08.vcproj
+END
+pcspim.vs6.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/424/PCSpim/pcspim.vs6.dsp
+END
+PCSpimDoc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/430/PCSpim/PCSpimDoc.cpp
+END
+MultiStepDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/385/PCSpim/MultiStepDlg.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/spimsimulator/code/!svn/ver/423/PCSpim/util.h
+END
+pcspim.vs6.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/424/PCSpim/pcspim.vs6.dsw
+END
+SetValueDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/385/PCSpim/SetValueDlg.h
+END
+BreakpointDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/spimsimulator/code/!svn/ver/430/PCSpim/BreakpointDlg.cpp
+END
+PCSpimView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/spimsimulator/code/!svn/ver/563/PCSpim/PCSpimView.cpp
+END
+SettingsDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/563/PCSpim/SettingsDlg.cpp
+END
+StdAfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/385/PCSpim/StdAfx.cpp
+END
+PCSpim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/563/PCSpim/PCSpim.cpp
+END
+PCSpim.aps
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/503/PCSpim/PCSpim.aps
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/260/PCSpim/resource.h
+END
+PCSpim.cnt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/260/PCSpim/PCSpim.cnt
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/385/PCSpim/MainFrm.h
+END
+PCSpim.clw
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/504/PCSpim/PCSpim.clw
+END
+RunDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/385/PCSpim/RunDlg.h
+END
+PCSpim.rc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/spimsimulator/code/!svn/ver/608/PCSpim/PCSpim.rc
+END
+MultiStepDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/spimsimulator/code/!svn/ver/430/PCSpim/MultiStepDlg.cpp
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/423/PCSpim/util.cpp
+END
+Regman.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/spimsimulator/code/!svn/ver/385/PCSpim/Regman.h
+END
+SetValueDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/430/PCSpim/SetValueDlg.cpp
+END
+ConsoleWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/423/PCSpim/ConsoleWnd.h
+END
+pcspim.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/spimsimulator/code/!svn/ver/425/PCSpim/pcspim.vcxproj.user
+END
+PCSpimDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/385/PCSpim/PCSpimDoc.h
+END
+MainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/spimsimulator/code/!svn/ver/430/PCSpim/MainFrm.cpp
+END
+BreakpointDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/spimsimulator/code/!svn/ver/385/PCSpim/BreakpointDlg.h
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/260/PCSpim/readme.txt
+END
+RunDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/spimsimulator/code/!svn/ver/430/PCSpim/RunDlg.cpp
+END
+PCSpimView.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/spimsimulator/code/!svn/ver/563/PCSpim/PCSpimView.h
+END
+SettingsDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/spimsimulator/code/!svn/ver/385/PCSpim/SettingsDlg.h
+END

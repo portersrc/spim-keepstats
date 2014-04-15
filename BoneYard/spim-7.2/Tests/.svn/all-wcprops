@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/spimsimulator/code/!svn/ver/628/BoneYard/spim-7.2/Tests
+END
+tt.le.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.le.s
+END
+tt.fpu.bare.s
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.fpu.bare.s
+END
+tt.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.in
+END
+tt.be.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.be.s
+END
+tt.io.s
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.io.s
+END
+tt.core.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.core.s
+END
+tt.alu.bare.s
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.alu.bare.s
+END
+tt.bare.s
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/spimsimulator/code/!svn/ver/304/BoneYard/spim-7.2/Tests/tt.bare.s
+END
