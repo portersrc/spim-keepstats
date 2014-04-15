@@ -1,0 +1,35 @@
+readme 4240
+```````````
+
+This is a fork of the most recent code for the spim simulator.
+The only additions are to the spim/ folder, which contains
+the source code for the terminal interface. A few files have
+been added and augmented to keep statistics on the instructions.
+
+=====
+BUILD
+=====
+
+cd spim
+make
+sudo make install
+
+
+(Note: There may be other dependencies, but I think you will at
+least need yacc and lex. Be sure to download these packages.)
+
+
+===
+RUN
+===
+
+spim -keepstats -f file.s
+
+
+
+
+======
+CREDIT
+======
+The keepstats code comes from a group at Colorado State:
+        http://www.cs.colostate.edu/~mstrout/spim/keepstats.html
