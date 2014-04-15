@@ -49,6 +49,7 @@
 #include "parser_yacc.h"
 #include "run.h"
 #include "sym-tbl.h"
+#include "statistics.h"                    /* Added for keepstats */
 
 
 /* Internal functions: */
@@ -137,6 +138,7 @@ initialize_world (char* exception_file_names)
     }
   initialize_scanner (stdin);
   delete_all_breakpoints ();
+  statistics_reset(&global_stats);    /* Added for keepstats */
 }
 
 
@@ -357,6 +359,7 @@ run_program (mem_addr pc, int steps, bool display, bool cont_bkpt, bool* continu
 
   exception_occurred = 0;
   *continuable = run_spim (pc, steps, display);
+  if (keep_stats){statistics_print(&global_stats,stdout);}// Added for keepstats 
   if (exception_occurred && CP0_ExCode == ExcCode_Bp)
   {
       /* Turn off EXL bit, so subsequent interrupts set EPC since the break is
